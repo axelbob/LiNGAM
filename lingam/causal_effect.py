@@ -1,13 +1,12 @@
-"""
-Python implementation of the LiNGAM algorithms.
-The LiNGAM Project: https://sites.google.com/site/sshimizu06/lingam
-"""
-
 import numpy as np
 from sklearn.utils import check_array
 
 from .base import _BaseLiNGAM
 
+"""
+Python implementation of the LiNGAM algorithms.
+The LiNGAM Project: https://sites.google.com/site/sshimizu06/lingam
+"""
 
 class CausalEffect(object):
     """Implementation of causality and prediction. [1]_
